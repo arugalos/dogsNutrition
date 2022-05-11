@@ -1,0 +1,336 @@
+body{
+    background-image: url(/dog.jpg);
+    width: 90vw;
+    background-color: ;
+    font-weight: 800;
+    margin: auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    overflow-y: hidden;
+    margin:0;
+    font-family: monospace;
+    font-size: 1.5em;
+    background-size: 50%,50%,50%,50%;
+
+
+
+}
+.navbar{
+    font-weight: 900;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 100vw;
+    background:linear-gradient(  rgb(71, 30, 0),rgb(240, 49, 1) );
+    border:solid 1px black;
+    margin: 0;
+    padding:auto;
+    justify-content: space-around;
+    z-index: 3;
+}
+
+
+.go_top{
+    position: fixed;
+    top: 9%;
+    margin: auto;
+    color: lime;
+  
+
+}
+.go_top:hover{
+    scale:1.1;
+}
+
+/*
+.go_top{
+width: 4em;
+height: 2em;
+border: solid 1px black;
+color: black;
+background-color: blueviolet;
+border-radius: 50%;
+align-content: center;
+align-items: center;
+justify-items:center;
+text-align: center;
+justify-content: space-around;
+z-index: 4;
+font-size: 3em;
+font-family:  monospace;
+text-color:black;
+position: fixed;
+top: 9%;
+margin: 0;
+padding-top: 2%;
+}
+
+*/
+
+
+ui{
+    background-color: rgba(7, 182, 124, 1),;
+    margin:1%;
+    padding: ;
+    justify-content: space-around;
+    align-self: center;
+    border-radius: 5px;
+
+}
+ui:hover{
+    scale: 1.1;
+}
+
+
+
+#main{
+    scale: 1.;
+    display: flex;
+    justify-content: center;
+    margin: 0 ;
+    height: 100vh;
+    position: relative;
+    scroll-snap-align: start;
+    flex-direction: column;
+    align-self: center;
+ align-content: center;
+ align-items: center;
+ 
+}
+
+
+#title{
+     font-weight: 1500;
+ color: rgb(129, 202, 4);
+ position: relative;
+ font-family:  Courier, monospace;
+ font-size: 39px;
+ margin: auto;
+ padding:0 ;
+ text-align: center;
+ display: flex;
+ top: 10vh;
+ align-self: center;
+ align-content: center;
+ text-shadow: rgb(26, 22, 6) 1px 0 10px; 
+ 
+ }
+
+   a{text-decoration-line: none;}
+   a:link {color:black ;}        
+   a:active {color:black ;}     
+   a:visited {color:black ;} 
+   a{font-style: monospace;}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid aliceblue;
+    text-align: center;
+    margin: auto;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    position: relative;
+    width: max-content;
+    padding-top: 3%;
+    padding-bottom:3% ;
+    align-self: center;
+    font-weight: 3000;
+
+
+
+    }
+  
+#top{
+    overflow: hidden;
+    margin: auto;
+    padding: auto;
+    color: rgb(146, 6, 6);
+  
+     
+      
+
+}
+#top:hover{
+    scale: 1.15;
+}
+
+#mid  {
+    color: brown;
+}
+#mid:hover{
+   scale: 1.15;
+}
+
+#bot  {
+    color: brown;
+
+}
+
+#bot:hover{
+    scale: 1.15;
+}
+header{
+    margin: 10%;
+}
+p{
+    margin: 1em;
+    padding-top: 1em;
+
+}
+li{
+    margin: 10%;
+
+}
+
+.col1{
+    height: 100vh;
+    min-height: 100vh;
+    border: solid aliceblue;
+    margin: auto;
+    height: 100vh;
+    width: 75%;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    scroll-snap-align:center ;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 1.7em;
+    margin-left: 8em;
+
+}
+
+
+
+.col2{
+    width: 43%;
+    min-height: 100vh;
+    border: solid aliceblue;
+    margin: auto;
+    height: 100vh;
+    width: 75%;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    scroll-snap-align: center;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 1.7em;
+    margin-left: 8em;
+}
+
+.col3{
+    width: 43%;
+    height: 100vh;
+    border: solid aliceblue;
+    margin: auto;
+    height: 100vh;
+    width: 75%;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    scroll-snap-align: end ;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 1.7em;
+    margin-left: 8em;
+
+}
+
+.oral{
+    width: 43%;
+    height: 100vh;
+    border: solid aliceblue;
+    margin: auto;
+    height: 100vh;
+    width: 75%;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    scroll-snap-align: end ;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 1.7em;
+    margin-left: 8em;
+
+
+}
+.tips{
+    height: 100vh;
+    border: solid aliceblue;
+    margin: auto;
+    min-height: 100vh;
+    width: 75%;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    scroll-snap-align: end ;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 1.7em;
+    margin-left: 8em;
+
+}
+.about {
+    height: 100vh;
+    border: solid aliceblue;
+    margin: auto;
+    height: 100vh;
+    width: 75%;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    scroll-snap-align: end ;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 1.7em;
+    margin-left: 8em;
+
+}
+.sourses {
+    height: 100vh;
+    border: solid aliceblue;
+    margin: auto;
+    height: 100vh;
+    width: 75%;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    scroll-snap-align: end ;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 1.7em;
+    margin-left: 8em;
+
+}
+.more {
+    height: 100vh;
+    border: solid aliceblue;
+    margin: auto;
+    width: 75%;
+    background:linear-gradient(0deg, rgb(183, 61, 0),rgb(243, 123, 2) ) ;
+    scroll-snap-align: end ;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 1.7em;
+    margin-left: 8em;
+
+}
+@media  screen and (max-width: 492px) {
+   
+    #container{
+        scale: .6;
+        margin: 0;
+
+    }
+    .navbar, {
+        width: 100%;
+        height: 10px;
+    }
+    header{
+        padding-top: 2em;
+    }
+    p{
+        margin: 1em 2em;
+        font-size: .5em;
+
+    }
+    ui, li{
+        font-size: .5em;
+    }
+    .col1, .col2, .col3, .oral, .tips, .about, .sourses{
+        margin-left: 5em;
+    }
+
+
+    
+  }
+  
